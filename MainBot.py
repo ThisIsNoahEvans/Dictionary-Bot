@@ -6,7 +6,6 @@ for x in range(1, 370103):
 	from PyDictionary import PyDictionary
 	import tweepy
 	import random
-	import sys
 	import time
 
 	#Sets Font For Print Statements
