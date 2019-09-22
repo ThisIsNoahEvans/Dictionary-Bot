@@ -81,7 +81,7 @@ for x in range(1, 370103):
 	                    ##Everything Else
 	                    tweet = randomStr.capitalize() + " is a " + original_tweet_text
 
-	#Exits If No Definition
+	#Restarts If No Definition
 	if "None" in tweet:
 		print(colour.BOLD, 'No definition; exitting...', colour.END)
 		print(tweet)
