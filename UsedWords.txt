@@ -1,0 +1,2 @@
+###This is used to store words that have already been Tweeted/used###
+###It is a blank text file for the program to write to###
