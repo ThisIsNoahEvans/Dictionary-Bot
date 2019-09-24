@@ -21,4 +21,4 @@ I used **Random** to choose a random word - this is pretty simple and I'm sure m
 
 **BlockedWords.txt** contains explicit words from *https://en.wiktionary.org/wiki/Category:English_swear_words* and the bot chooses a new word if one from the list is chosen to be Tweeted.
 
-**UsedWords.txt** contains words that the bot has used - wheather or not they had a definition in **PyDictionary** and was thus Tweeted. Adding the word at the stage of choosing it means that the program has less code to get through before realising that a lot of the previous code for defining the word was unneeded if the word can't even be used - this is the same with **BlockedWords.txt**.
+**UsedWords.txt** contains words that the bot has used - whether or not they had a definition in **PyDictionary** and was thus Tweeted. Adding the word at the stage of choosing it means that the program has less code to get through before realising that a lot of the previous code for defining the word was unneeded if the word can't even be used - this is the same with **BlockedWords.txt**.
