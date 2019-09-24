@@ -119,5 +119,5 @@ for x in range(1, 370103):
 	api.update_status(tweet)
 	#Print Output
 	print(colour.BOLD, colour.PURPLE, "\"" + tweet + "\" Was Tweeted!", colour.END)
-	print(colour.BOLD, colour.BLUE, 'WAITING 15 MINUTES (900 SECONDS) TO TWEET AGAIN', colour.END)
+	print(colour.BOLD, colour.BLUE, 'WAITING 14.5 MINUTES (870 SECONDS) TO TWEET AGAIN', colour.END)
 	time.sleep(870)
