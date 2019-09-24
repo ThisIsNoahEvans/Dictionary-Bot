@@ -22,8 +22,8 @@ class colour:
 
 #Define Dictionary and Connect To Twitter API
 dictionary = PyDictionary()
-auth = tweepy.OAuthHandler("rrqJVjuQtL12ITAV2kBwa7tM1", "wMpNoC436MjXJnbR1GIKtS2fo89kViHkd8WerWQQ6XJyLM3HvA")
-auth.set_access_token("1036917176983277568-9OANYg29Kfn1eMg5XgTMx1oCu7y7x0", "ILS2IxajT2nfpChEQqdLZ9zbPTNkGEcFdmSzN4lcj1NEJ")
+auth = tweepy.OAuthHandler("INSERT YOUR API", "INSERT YOUR API")
+auth.set_access_token("INSERT YOUR API", "INSERT YOUR API")
 api = tweepy.API(auth)
 
 #Print Program Status
