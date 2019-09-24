@@ -1,4 +1,4 @@
-###This is used to simply Tweet using the APIs: essentially a custom client***
+###This is used to simply Tweet using the APIs: essentially a custom client###
 
 #Imports Tweepy
 import tweepy
