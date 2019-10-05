@@ -17,7 +17,7 @@ I used **Random** to choose a random word - this is pretty simple and I'm sure m
 
 ## Words
 
-*words.txt* is a text file with 370,103 words. This was sourced from *https://github.com/dwyl/english-words* under the file name **words_alpha.txt**. (Note: for simplicity reasons, I renamed the sourced file **words_alpha.txt** to **words.txt** so don't get confused. In short, the file here **words.txt** *is* **words_alpha.txt**.) It's unnecessary in this case to use the sourced file **words.txt** as the program doesn't need a ton of data, and **words_alpha.txt** is sufficient for this use. Sorry if this is confusing!
+**words.txt** is a text file with 370,103 words. This was sourced from *https://github.com/dwyl/english-words* under the file name **words_alpha.txt**. (Note: for simplicity reasons, I renamed the sourced file **words_alpha.txt** to **words.txt** so don't get confused. In short, the file here **words.txt** *is* **words_alpha.txt**.) It's unnecessary in this case to use the sourced file **words.txt** as the program doesn't need a ton of data, and **words_alpha.txt** is sufficient for this use. Sorry if this is confusing!
 
 **BlockedWords.txt** contains explicit words from *https://en.wiktionary.org/wiki/Category:English_swear_words* and the bot chooses a new word if one from the list is chosen to be Tweeted.
 
