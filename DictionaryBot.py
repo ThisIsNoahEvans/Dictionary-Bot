@@ -21,8 +21,8 @@ class colour:
 
 #Define Dictionary and Connect To Twitter API
 dictionary = PyDictionary()
-auth = tweepy.OAuthHandler("INSERT YOUR API", "INSERT YOUR API")
-auth.set_access_token("INSERT YOUR API", "INSERRT YOUR API")
+auth = tweepy.OAuthHandler("INSERT-YOUR-API", "INSERT-YOUR-API")
+auth.set_access_token("INSERT-YOUR-API", "INSERT-YOUR-API")
 api = tweepy.API(auth)
 
 #Print Program Status
@@ -112,7 +112,7 @@ for x in range(1, 370103):
         tweet = tweet + '.'
         #Shorten Tweet And Add '[..]' If It Is Too Long
         tweet = tweet[:276] + (tweet[276:] and '[..]')
-	#Tweet
+        #Tweet
         api.update_status(tweet)
         #Print Output
         print(colour.BOLD, colour.GREEN, "\"" + tweet + "\" Was Tweeted!", colour.END)
