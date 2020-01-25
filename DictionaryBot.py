@@ -19,12 +19,11 @@ class colour:
     UNDERLINE = '\033[4m'
     END = '\033[0m'
 
-#Define Dictionary and Connect To Twitter API, and define TTS lang
+#Define Dictionary and Connect To Twitter API
 dictionary = PyDictionary()
 auth = tweepy.OAuthHandler("INSERT-YOUR-API", "INSERT-YOUR-API")
 auth.set_access_token("INSERT-YOUR-API", "INSERT-YOUR-API")
 api = tweepy.API(auth)
-language = 'en'
 
 #Print Program Status
 print(colour.BOLD, colour.PURPLE, "Imported Libraries And Connected To The Twitter API", colour.END)
