@@ -2,7 +2,9 @@
 
 Hello! If you're here, you probably want to get started with editing this bot for yourself. Here's a simple guide to set up and launch your own bot!
 
-I'm running mine from a Raspberry Pi 3 Model B with Raspbrian. It's only got an 8GB Micro SD card, but as you're only storing small text/Python files (*the largest file is words.txt which is still only 4.2MB*) that should leave you with around 1GB of free storage - at least for me, anyway!
+I was running mine from a Raspberry Pi 3 Model B with Raspbrian. It's only got an 8GB Micro SD card, but as you're only storing small text/Python files (*the largest file is words.txt which is still only 4.2MB*) that should leave you with around 1GB of free storage - at least for me, anyway!
+
+I'm now running from [PythonAnywhere](https://www.pythonanywhere.com)
 
 *Note: As said in README.md, "I don't recommend launching a Dictionary Bot similar to mine unless you change key features; Twitter users typically will only follow one account/bot if there are multiple providing the same service."*
 
