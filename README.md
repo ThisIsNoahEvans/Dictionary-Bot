@@ -1,6 +1,8 @@
 # Dictionary Bot
 ### The Twitter Bot **@ADictionaryBot**
 
+## This Twitter bot is no longer in operation and I will not be maintaining this repo - but feel free to use the code in your projects.
+
 Here is the code for my Twitter **Dictionary Bot**.
 You can view and experiment with the code, but I don't recommend launching a Dictionary Bot similar to mine unless you change key features; Twitter users typically will only follow one account/bot if there are multiple providing the same service.
 
