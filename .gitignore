@@ -1,2 +1,5 @@
 # Logos
 *.png
+
+# macOS
+.DS_Store
